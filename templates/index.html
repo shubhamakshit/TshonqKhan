@@ -1,0 +1,36 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+    .share-tech-mono-regular {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+</style>
+{% extends 'base.html' %}
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <img src="https://img.icons8.com/ios/200/hacker.png" class="rounded mx-auto d-block" alt="..." style="object-fit: cover;height: 200px;width: 200px; margin-bottom: 1%;">
+        <h1 class="share-tech-mono-regular">Hello, World!</h1>
+        <h1 class="share-tech-mono-regular">I am Tshonq Khan</h1>
+        <p>
+            Welcome to my website. I am a software engineer and a full-stack web developer. I am passionate about technology and I love to learn new things. I am always looking for new opportunities to grow and improve my skills. I am currently working on a few projects that I am excited to share with you. Please feel free to reach out to me if you have any questions or if you would like to collaborate on a project. I look forward to hearing from you!
+        </p>
+        <div class="icon-group" style="font-size: 24px;">
+            <a href="https://github.com/shubhamakshit" target="_blank" class="icon-link">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="mailto:akshitshubhammas@gmail.com" class="icon-link">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/shubham.akshit" target="_blank" class="icon-link">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
